@@ -21,6 +21,7 @@
 		CE22C9F818CB61A200A1E97E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22C9DA18CB61A200A1E97E /* UIKit.framework */; };
 		CE22CA0018CB61A200A1E97E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE22C9FE18CB61A200A1E97E /* InfoPlist.strings */; };
 		CE22CA0218CB61A200A1E97E /* BrandAppExmpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22CA0118CB61A200A1E97E /* BrandAppExmpleTests.m */; };
+		CE22CA0D18CB631700A1E97E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22CA0C18CB631700A1E97E /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE22C9FD18CB61A200A1E97E /* BrandAppExmpleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrandAppExmpleTests-Info.plist"; sourceTree = "<group>"; };
 		CE22C9FF18CB61A200A1E97E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE22CA0118CB61A200A1E97E /* BrandAppExmpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandAppExmpleTests.m; sourceTree = "<group>"; };
+		CE22CA0B18CB631700A1E97E /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		CE22CA0C18CB631700A1E97E /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CE22C9E518CB61A200A1E97E /* AppDelegate.h */,
 				CE22C9E618CB61A200A1E97E /* AppDelegate.m */,
 				CE22C9E818CB61A200A1E97E /* Main.storyboard */,
+				CE22CA0B18CB631700A1E97E /* ViewController2.h */,
+				CE22CA0C18CB631700A1E97E /* ViewController2.m */,
 				CE22C9EB18CB61A200A1E97E /* ViewController.h */,
 				CE22C9EC18CB61A200A1E97E /* ViewController.m */,
 				CE22C9EE18CB61A200A1E97E /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE22C9ED18CB61A200A1E97E /* ViewController.m in Sources */,
+				CE22CA0D18CB631700A1E97E /* ViewController2.m in Sources */,
 				CE22C9E718CB61A200A1E97E /* AppDelegate.m in Sources */,
 				CE22C9E318CB61A200A1E97E /* main.m in Sources */,
 			);
