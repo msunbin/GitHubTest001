@@ -42,7 +42,7 @@
     
     
     // 3
-    UILabel *label3 = [[ UILabel alloc] initWithFrame:CGRectMake(20, 160, 280, 20) ];
+    UILabel *label3 = [[ UILabel alloc] initWithFrame:CGRectMake(20, 160, 280, 32) ];
     label3.text = @"홍길동";
     label3.textColor = [ UIColor  blueColor];
     label3.backgroundColor = [ UIColor grayColor ];
@@ -51,10 +51,10 @@
     // 4
     // 사용하고자 하는 폰트를 프로젝트로 복사해 가져온후  
     // info.plist 파일에 "UIAppFonts"라는 항목을 추가하고 폰트등록해야 함.
-    UILabel *label4  = [[ UILabel alloc] initWithFrame:CGRectMake(20, 160, 280, 20) ];
-    label4.text      = @"201326000";
+    UILabel *label4  = [[ UILabel alloc] initWithFrame:CGRectMake(20, 160, 280, 32) ];
+    label4.text      = @"201326000-홍길동";
     label4.textColor = [ UIColor  blueColor];
- 	label4.font      = [UIFont fontWithName:@"NanumGothic" size:19];
+ 	label4.font      = [UIFont fontWithName:@"NanumBarunGothic" size:30];
 	label4.textAlignment = 1;
     [ self.view  addSubview:label4];
     
