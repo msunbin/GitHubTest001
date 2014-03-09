@@ -58,6 +58,23 @@
 	label4.textAlignment = 1;
     [ self.view  addSubview:label4];
     
+    
+    //이미지뷰
+    
+    // 1
+    UIImage *normalImage = [UIImage imageNamed:@"titlebarLogo_main.png"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:normalImage];
+    imageView.frame = CGRectMake(20, 200, normalImage.size.width, normalImage.size.height);
+    [self.view addSubview:imageView];
+    
+    
+    // 2
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"titlebarLogo_main" ofType:@"png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+    UIImageView *imageView2 = [[UIImageView alloc] initWithImage:image];
+    [self.view addSubview:imageView2];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
