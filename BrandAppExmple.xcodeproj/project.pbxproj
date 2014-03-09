@@ -425,6 +425,7 @@
 		CE4FFEA518CC201600F3DB35 /* ViewController304.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController304.m; sourceTree = "<group>"; };
 		CE4FFEA818CC202500F3DB35 /* ViewController305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController305.h; sourceTree = "<group>"; };
 		CE4FFEA918CC202500F3DB35 /* ViewController305.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController305.m; sourceTree = "<group>"; };
+		CEF7D30818CC681300718C2D /* NanumBarunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -499,6 +500,7 @@
 		CE22C9DD18CB61A200A1E97E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEF7D30818CC681300718C2D /* NanumBarunGothic.ttf */,
 				CE4FFD3618CC168C00F3DB35 /* images */,
 				CE22C9DE18CB61A200A1E97E /* BrandAppExmple-Info.plist */,
 				CE22C9DF18CB61A200A1E97E /* InfoPlist.strings */,
