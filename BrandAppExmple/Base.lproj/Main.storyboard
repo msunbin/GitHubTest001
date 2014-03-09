@@ -189,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZf-9D-ER7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2417" y="-51"/>
+            <point key="canvasLocation" x="2417" y="-59"/>
         </scene>
         <!--View Controller - 학과안내-->
         <scene sceneID="zku-oX-RPq">
@@ -210,10 +210,10 @@
             </objects>
             <point key="canvasLocation" x="1508" y="-59"/>
         </scene>
-        <!--View Controller - 인사말-->
+        <!--View Controller201 - 인사말-->
         <scene sceneID="y0K-7f-9YI">
             <objects>
-                <viewController id="Gpr-3v-Qng" sceneMemberID="viewController">
+                <viewController id="Gpr-3v-Qng" customClass="ViewController201" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YS0-hU-ec3"/>
                         <viewControllerLayoutGuide type="bottom" id="5mM-Z7-DAg"/>
@@ -227,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPX-jl-eGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="-45"/>
+            <point key="canvasLocation" x="1055" y="-59"/>
         </scene>
         <!--Navigation Controller - 대학소개-->
         <scene sceneID="AJk-SU-5bp">
