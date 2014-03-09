@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="1953" y="-59"/>
         </scene>
-        <!--View Controller - 전화번호안내-->
+        <!--View Controller204 - 전화번호안내-->
         <scene sceneID="93I-Tu-tgO">
             <objects>
-                <viewController id="RG5-GZ-r99" sceneMemberID="viewController">
+                <viewController id="RG5-GZ-r99" customClass="ViewController204" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dc4-6q-BQJ"/>
                         <viewControllerLayoutGuide type="bottom" id="5a9-Yt-oo0"/>
