@@ -23,6 +23,7 @@
 		CE22CA0218CB61A200A1E97E /* BrandAppExmpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22CA0118CB61A200A1E97E /* BrandAppExmpleTests.m */; };
 		CE4FFD2A18CC057E00F3DB35 /* ViewController201.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FFD2918CC057E00F3DB35 /* ViewController201.m */; };
 		CE4FFD3018CC07D400F3DB35 /* ViewController202.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FFD2F18CC07D400F3DB35 /* ViewController202.m */; };
+		CE4FFD3318CC088800F3DB35 /* ViewController204.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FFD3218CC088800F3DB35 /* ViewController204.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		CE4FFD2918CC057E00F3DB35 /* ViewController201.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController201.m; path = ../ViewController201.m; sourceTree = "<group>"; };
 		CE4FFD2E18CC07D400F3DB35 /* ViewController202.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController202.h; sourceTree = "<group>"; };
 		CE4FFD2F18CC07D400F3DB35 /* ViewController202.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController202.m; sourceTree = "<group>"; };
+		CE4FFD3118CC088800F3DB35 /* ViewController204.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController204.h; sourceTree = "<group>"; };
+		CE4FFD3218CC088800F3DB35 /* ViewController204.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController204.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				CE4FFD2918CC057E00F3DB35 /* ViewController201.m */,
 				CE4FFD2E18CC07D400F3DB35 /* ViewController202.h */,
 				CE4FFD2F18CC07D400F3DB35 /* ViewController202.m */,
+				CE4FFD3118CC088800F3DB35 /* ViewController204.h */,
+				CE4FFD3218CC088800F3DB35 /* ViewController204.m */,
 				CE22C9EE18CB61A200A1E97E /* Images.xcassets */,
 				CE22C9DD18CB61A200A1E97E /* Supporting Files */,
 			);
@@ -262,6 +267,7 @@
 				CE4FFD2A18CC057E00F3DB35 /* ViewController201.m in Sources */,
 				CE4FFD3018CC07D400F3DB35 /* ViewController202.m in Sources */,
 				CE22C9ED18CB61A200A1E97E /* ViewController.m in Sources */,
+				CE4FFD3318CC088800F3DB35 /* ViewController204.m in Sources */,
 				CE22C9E718CB61A200A1E97E /* AppDelegate.m in Sources */,
 				CE22C9E318CB61A200A1E97E /* main.m in Sources */,
 			);

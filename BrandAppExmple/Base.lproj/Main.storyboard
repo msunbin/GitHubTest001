@@ -191,10 +191,10 @@
             </objects>
             <point key="canvasLocation" x="2417" y="-59"/>
         </scene>
-        <!--View Controller - 학과안내-->
+        <!--View Controller202 - 학과안내-->
         <scene sceneID="zku-oX-RPq">
             <objects>
-                <viewController id="SO3-rW-58b" sceneMemberID="viewController">
+                <viewController id="SO3-rW-58b" customClass="ViewController202" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="019-hl-kGF"/>
                         <viewControllerLayoutGuide type="bottom" id="Q5g-B3-DV9"/>
