@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController305
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    // 셔틀버스
+    // http://m.bsks.ac.kr/tpl/ks02_life_bus.html
+    NSURL *url    = [ NSURL URLWithString:@"http://m.bsks.ac.kr/tpl/ks02_life_bus.html"];
+    NSURLRequest  *request = [ NSURLRequest  requestWithURL:url ];
+    
+    [webView  loadRequest:request];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

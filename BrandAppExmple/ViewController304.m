@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController304
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+
+    // 학사일정
+    // http://m.bsks.ac.kr/server/ks02_life_calendar.asp
+    NSURL *url    = [ NSURL URLWithString:@"http://m.bsks.ac.kr/server/ks02_life_calendar.asp"];
+    NSURLRequest  *request = [ NSURLRequest  requestWithURL:url ];
+    
+    [webView  loadRequest:request];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
